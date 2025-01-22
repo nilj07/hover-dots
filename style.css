@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(10, 10, 10);
+}
+.main h2{
+    color: rgb(185, 185, 185);
+    margin-bottom: 10px;
+}
+.hero{
+    height: auto;
+    width: 60vh;
+    column-gap: 4px;
+    row-gap: 4px;
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
+}
+#dot{
+    margin: 0;
+    padding: 0;
+    height: 1rem;
+    width: 1rem;
+    background-color: rgb(31, 31, 31);
+    
+}
