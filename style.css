@@ -35,3 +35,38 @@
     background-color: rgb(31, 31, 31);
     
 }
+@media screen and (max-width:1440px){
+    .hero {
+        height: auto;
+        width: 74vh;
+    }
+}
+
+
+@media screen and (max-width:425px){
+    .hero {
+        height: auto;
+        width: 65vh;
+    }
+}
+
+@media screen and (max-width:375px){
+    #dot {
+        margin: 0;
+        padding: 0;
+        height: 13px;
+        width: 13px;
+        background-color: rgb(31, 31, 31);
+    }
+    .hero {
+        height: auto;
+        width: 61vh;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .hero {
+        height: auto;
+        width: 48vh;
+    }
+}
